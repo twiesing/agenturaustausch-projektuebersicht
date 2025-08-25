@@ -2,40 +2,42 @@
 
 ## Inhaltsverzeichnis
 
-- [Uptime-Monitoring mit Gatus](#uptime-monitoring-mit-gatus)
+- [Agentur-Tipps: Kundenprojekte im Überblick behalten](#agentur-tipps-kundenprojekte-im-überblick-behalten)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Uptime-Monitoring mit Gatus](#uptime-monitoring-mit-gatus)
     - [Use-Case](#use-case)
     - [Beschreibung](#beschreibung)
     - [Screenshots](#screenshots)
     - [Code-Beispiele](#code-beispiele)
-- [Benachrichtigungen über Pushover](#benachrichtigungen-über-pushover)
+  - [Benachrichtigungen über Pushover](#benachrichtigungen-über-pushover)
     - [Use-Case](#use-case-1)
     - [Beschreibung](#beschreibung-1)
     - [Screenshots](#screenshots-1)
-- [Changedetection](#changedetection)
+  - [Website-Änderungen mit Changedetection erkennen](#website-änderungen-mit-changedetection-erkennen)
     - [Use-Case](#use-case-2)
     - [Beschreibung](#beschreibung-2)
     - [Screenshots](#screenshots-2)
-- [Analytics mit Umami](#analytics-mit-umami)
+  - [Analytics mit Umami](#analytics-mit-umami)
     - [Use-Case](#use-case-3)
     - [Beschreibung](#beschreibung-3)
     - [Screenshots](#screenshots-3)
-- [Automatisierungen mit n8n](#automatisierungen-mit-n8n)
+  - [Automatisierungen mit n8n](#automatisierungen-mit-n8n)
     - [Use-Case](#use-case-4)
     - [Beschreibung](#beschreibung-4)
     - [Screenshots](#screenshots-4)
-- [DNS-Records verwalten mit DNSControl](#dns-records-verwalten-mit-dnscontrol)
+  - [DNS-Records verwalten mit DNSControl](#dns-records-verwalten-mit-dnscontrol)
     - [Use-Case](#use-case-5)
     - [Beschreibung](#beschreibung-5)
     - [Code-Beispiele](#code-beispiele-1)
-- [Cronjob-Monitoring mit Healthchecks](#cronjob-monitoring-mit-healthchecks)
+  - [Cronjob-Monitoring mit Healthchecks](#cronjob-monitoring-mit-healthchecks)
     - [Use-Case](#use-case-6)
     - [Beschreibung](#beschreibung-6)
     - [Screenshots](#screenshots-5)
-- [WP-CLI für WordPress-Management](#wp-cli-für-wordpress-management)
+  - [WP-CLI für WordPress-Management](#wp-cli-für-wordpress-management)
     - [Use-Case](#use-case-7)
     - [Beschreibung](#beschreibung-7)
     - [Code-Beispiele](#code-beispiele-2)
-- [Passwörter verwalten mit Vaultwarden](#passwörter-verwalten-mit-vaultwarden)
+  - [Passwörter verwalten mit Vaultwarden](#passwörter-verwalten-mit-vaultwarden)
     - [Use-Case](#use-case-8)
     - [Beschreibung](#beschreibung-8)
     - [Screenshots](#screenshots-6)
@@ -103,7 +105,7 @@ https://pushover.net/
 
 ![Channel](/assets/pushover/channel.png)
 
-## Changedetection
+## Website-Änderungen mit Changedetection erkennen
 
 https://github.com/dgtlmoon/changedetection.io
 
