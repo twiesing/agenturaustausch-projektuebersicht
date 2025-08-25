@@ -272,6 +272,8 @@ https://github.com/healthchecks/healthchecks
 
 ## WP-CLI für WordPress-Management
 
+https://wp-cli.org/de/
+
 ### Use-Case
 
 - Zentrale Verwaltung einzelner bzw. aller WordPress-Instanzen über mehrere Hostinganbieter hinweg.
@@ -317,6 +319,8 @@ Datenbank exportieren:
 
 
 ## Passwörter verwalten mit Vaultwarden
+
+https://github.com/dani-garcia/vaultwarden
 
 ### Use-Case
 
