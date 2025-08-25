@@ -47,7 +47,7 @@ https://github.com/TwiN/gatus
 ### Use-Case
 
 - Monitoring internen Dienste und aller Kundenwebsites im Intervall von 1 Minute.
-- Prüfung, ob die Seite a) Status-Code 200 liefert, b) das gewünschte Suchwort gefunden wurde, c) die Auslieferung in unter 1000ms erfolgt und d) ob das Zeritifkat noch länger als 7 Tage gültig ist.
+- Prüfung, ob die Seite a) Status-Code 200 liefert, b) das gewünschte Suchwort gefunden wurde, c) die Auslieferung in unter 1000ms erfolgt und d) ob das Zertifikat noch länger als 7 Tage gültig ist.
 - Benachrichtigungen über Probleme per [Pushover](https://pushover.net/).
 - Pflege der Konfiguration als YAML über ein Git-Repo mit automatischer Aktualisierung.
 
@@ -87,7 +87,7 @@ https://pushover.net/
 
 ### Use-Case
 
-- Jegliche Monitorings (Cronjobs, Website-Uptime, Changedetection) möchte ich  in einer App haben.
+- Jegliche Monitorings (Cronjobs, Website-Uptime, Changedetection) möchte ich in einer App haben.
 - Pro Tool eigener Channel, den ich mit meinem Bruder teile, um mich im Fall der Fälle nicht alleine um alles kümmern zu müssen.
 - Verschiedene Prioritäts-Einstellungen je Channel bzw. Alert konfiguriert.
 
@@ -152,7 +152,7 @@ https://github.com/dgtlmoon/changedetection.io
 
 ### Use-Case
 
-- Nutzung der [mittwald-API per Workflow-Automatisierung](https://github.com/wiesinghilker/n8n-nodes-mittwald): Monatlich alle Contributor-Ausgangsrechnungen (Stripe) per Mail versenden oder direkt ins Buchhaltungstool importieren.
+- Nutzung der [mittwald-API per Workflow-Automatisierung](https://github.com/wiesinghilker/n8n-nodes-mittwald): monatlich alle Contributor-Ausgangsrechnungen (Stripe) per Mail versenden oder direkt ins Buchhaltungstool importieren.
 - Formulare in WordPress per Webhook an N8N schicken und dort weiter verarbeiten, z. B. Eintragung in Newsletter-Listen von [Listmonk](https://github.com/knadh/listmonk).
 - DIY-AI-Agents für Website-Chats.
 
@@ -181,7 +181,7 @@ https://github.com/StackExchange/dnscontrol
 
 ### Beschreibung
 
-- **Infrastructure as Code für DNS** – Verwalte DNS-Zonen via einer deklarativ und kompiliere sie für viele DNS-Provider bzw. Registrar-Anbieter.  
+- **Infrastructure as Code für DNS** – Verwalte DNS-Zonen via einer deklarativen DSL und kompiliere sie für viele DNS-Provider bzw. Registrar-Anbieter.  
 - **Multi-Provider-Support** – Unterstützung für über 35 DNS-Provider (z. B. Cloudflare, Route 53, Hetzner, BIND) sowie diverse Registrar-Services.  
 - **DNS-Compiler-Ansatz** – DNS-Konfigurationen werden in DNSControl konvertiert (IR), dann als Zone-Updates zu verschiedenen Anbietern übertragen.  
 - **Import-/Export-Tools** – `convertzone`-Command konvertiert BIND-Zonefiles oder OctoDNS-Configs in die DNSControl-DSL (dnsconfig.js) für einfache Migrationen.  
@@ -256,7 +256,7 @@ https://github.com/healthchecks/healthchecks
 
 - Warenwirtschafts-Exporte oder Backup-Cronjobs können einfach gemonitored werden.
 - Erfolgt kein "Ping" in gewissem Zeitraum, dann bekomme ich via Pushover eine Benachrichtigung.
-- Laufzeit und Ausgabe (z. B. Exit-Code oder Log) kann direkt mit werden.
+- Laufzeit und Ausgabe (z. B. Exit-Code oder Log) kann direkt mit überwacht werden.
 
 ### Beschreibung
 
@@ -285,7 +285,7 @@ https://wp-cli.org/de/
 - **Ideal für Automatisierung & Bulk-Operationen** – Perfekt zu verwenden in Shell-Skripten oder CI/CD-Pipelines (z. B. GitHub Actions), um zeitsparende und wiederholbare Workflows zu erstellen. 
 - **Multisite- und Core-Verwaltung** – Unterstützt WP-Core-Operationen (Installation, Updates), sowie Multisite-Management über entsprechende Befehle (`wp core`, `wp network`, `wp site`).  
 - **Effizient & erweiterbar** – Klar strukturierte Parent- und Subcommands mit Tab-Completion (für Bash & Zsh), konsistentes Verhalten, Composability durch Pipes und CLI-Caching.
-- **Einfacher Einstieg & flexible Installation** – Installation via Phar, Homebrew, Composer oder Docker möglich; danach standardisiert über `wp --info` installierbar und ausführbar.
+- **Einfacher Einstieg & flexible Installation** – Installation via Phar, Homebrew, Composer oder Docker möglich; danach standardisiert über `wp --info` prüfbar und ausführbar.
 
 ### Code-Beispiele
 
